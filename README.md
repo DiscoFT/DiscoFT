@@ -1,3 +1,5 @@
+DiscoFT is still a work in progress!
+
 DiscoFT's GUI is designed in PyQT
 
 
