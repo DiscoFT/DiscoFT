@@ -2,6 +2,8 @@ DiscoFT is still a work in progress!
 
 DiscoFT's GUI is designed in PyQT
 
+To successfully run DiscoFT you will need to install the modules it is asking for.
+
 
 DiscoFT is capable of opening CSV files extracted from DiscordChatExporter (or similarly formatted chat files).
 From the opened CSV it performs a number of selected functions on the data, then ouptuts the results to a HTML report.
