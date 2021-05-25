@@ -1,8 +1,24 @@
 DiscoFT is still a work in progress!
+--
+Using your terminal window, navigate using the cd command to your project folder where the DiscoFT has been located.
 
-DiscoFT's GUI is designed in PyQT
+python -V to check your version. This runs on 3.9.5.
 
-To successfully run DiscoFT you will need to install the modules it is asking for.
+Before running the program ou will need to run some commands to give access to certain modules.
+
+pip install pyqt5
+pip install numpy
+pip install nltk
+pip install pandas
+pip install gensim
+pip install pyLDAvis
+pip install matplotlib
+pip install wordcloud
+pip install spacy
+python -m spacy download en
+
+
+Finally, use >python .\main_thread.py to run inside your project folder
 
 
 DiscoFT is capable of opening CSV files extracted from DiscordChatExporter (or similarly formatted chat files).
