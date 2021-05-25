@@ -38,6 +38,7 @@ class WorkerThread(QThread):
         self.wrapper_topicModels = ''
         self.wrapper_wordMap = ''
         self.wrapper_top20Words = ''
+        
     def run(self):
         for iter, file in enumerate(self.files):
             self.words = []
