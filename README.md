@@ -1,10 +1,10 @@
-DiscoFT is still a work in progress!
+How to use
 --
 Using your terminal window, navigate using the cd command to your project folder where the DiscoFT has been located.
 
-python -V to check your version. This runs on 3.9.5.
+Use "python -V" to check your version. This tool was made using Python 3.9.5.
 
-Before running the program ou will need to run some commands to give access to certain modules.
+Before running the program you will need to run some commands to give access to certain modules if you don't already have them.
 
 pip install pyqt5
 pip install numpy
@@ -20,6 +20,7 @@ python -m spacy download en
 
 Finally, use >python .\main_thread.py to run inside your project folder
 
+--
 
 DiscoFT is capable of opening CSV files extracted from DiscordChatExporter (or similarly formatted chat files).
 From the opened CSV it performs a number of selected functions on the data, then ouptuts the results to a HTML report.
