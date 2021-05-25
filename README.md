@@ -8,23 +8,23 @@ Before running the program you will need to run some commands to give access to 
 
 >pip install [pyqt5](https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html)
 
->pip install numpy
+>pip install [numpy](https://numpy.org/doc/stable/)
 
->pip install nltk
+>pip install [nltk](https://www.nltk.org/)
 
->pip install pandas
+>pip install [pandas](https://pandas.pydata.org/)
 
->pip install gensim
+>pip install [gensim](https://radimrehurek.com/gensim/index.html)
 
->pip install pyLDAvis
+>pip install [pyLDAvis](https://github.com/bmabey/pyLDAvis)
 
->pip install matplotlib
+>pip install [matplotlib](https://matplotlib.org/)
 
->pip install wordcloud
+>pip install [wordcloud](https://github.com/amueller/word_cloud)
 
->pip install spacy
+>pip install [spacy](https://spacy.io/)
 
->python -m spacy download en
+>python -m [spacy](https://spacy.io/) download en
 
 
 Finally, use >python .\main_thread.py to run inside your project folder.
