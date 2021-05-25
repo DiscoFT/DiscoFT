@@ -1,4 +1,4 @@
-# Installation
+# Setup
 
 Using your terminal window, navigate using the cd command to your project folder where the DiscoFT has been located.
 
