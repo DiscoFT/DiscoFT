@@ -31,6 +31,8 @@ Finally, use >python .\main_thread.py to run inside your project folder.
 
 # Usability
 
+<img src=DiscoFT_GUI.PNG>
+
 
 **DiscoFT** is capable of opening CSV files extracted from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) or similarly formatted chat files.
 Once a CSV has been selected, it performs a number of selected functions on the data, then ouptuts the results to a HTML report.
