@@ -66,7 +66,7 @@ Inside this folder will be the chatreport in HTML format and any images necessar
 **Open your chat report to see the results!**
 
 # Licensing
-**DiscoFT** is provided free under the the BSD license BSD 3-Clause License
+**DiscoFT** is provided free under the BSD 3-Clause License
 
 Copyright (c) 2021, DiscoFT
 All rights reserved.
