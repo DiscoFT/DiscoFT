@@ -1,5 +1,5 @@
-Installation
---
+# Installation
+
 Using your terminal window, navigate using the cd command to your project folder where the DiscoFT has been located.
 
 Use "python -V" to check your version. This tool was made using Python 3.9.5.
@@ -29,14 +29,14 @@ Before running the program you will need to run some commands to give access to 
 
 Finally, use >python .\main_thread.py to run inside your project folder
 
-Usability
---
+# Usability
+
 
 DiscoFT is capable of opening CSV files extracted from DiscordChatExporter (or similarly formatted chat files).
 Once a CSV has been selected, it performs a number of selected functions on the data, then ouptuts the results to a HTML report.
 
-Functions
---
+# Functions
+
 1.  Outputting the Usernames involved in the conversation
 2.  Displaying the Start - End point of the conversation in the form of a Timeframe
 3.  Generating an Activity graph based on the timestamps in the conversation to help hightlight peak times
@@ -44,15 +44,15 @@ Functions
 5.  Displaying the top used words in the form of a Word Map
 6.  Identifying Topic Models based on learning from the conversation data and then outputting into a table & graph
 
-How to use
---
+# How to use
 
-# Opening A Chat
+
+## Opening A Chat
 Once the interface is up and the program has initialised, click 'Open Chat' for one CSV, or 'Open Multiple' to load multiple CSV's.
 
 *If you choose multiple, they will be iterated through one after another, rather than all at once. DiscoFT will state the progress as it goes.*
 
-# Creating Your Report
+## Creating Your Report
 After opening your chat files, tick the options you'd like in a report and click 'Create Report'.
 
 DiscoFT will procedurally initiate each option and generate a folder called "Result" if none exists in the working directory.
