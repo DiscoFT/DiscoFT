@@ -1,8 +1,8 @@
 # Setup & Prerequisites
 
-Using your terminal window, navigate using the cd command to your project folder where the DiscoFT has been located.
+Using your terminal window, navigate using the cd command to your project folder where the **DiscoFT** has been located.
 
-Use "python -V" to check your version. This tool was made using Python 3.9.5.
+This tool was made using **Python 3.9.5**. Use "python -V" to check your version. 
 
 Before running the program you will need to run some commands to give access to certain modules if you don't already have them.
 
@@ -32,7 +32,7 @@ Finally, use >python .\main_thread.py to run inside your project folder
 # Usability
 
 
-DiscoFT is capable of opening CSV files extracted from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) or similarly formatted chat files.
+**DiscoFT** is capable of opening CSV files extracted from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) or similarly formatted chat files.
 Once a CSV has been selected, it performs a number of selected functions on the data, then ouptuts the results to a HTML report.
 
 # Functions
@@ -62,5 +62,5 @@ Inside this folder will be the chatreport in HTML format and any images necessar
 **Open your chat report to see the results!**
 
 # Licensing
-DiscoFT is provided free under the GNU General Public License (GPL)
+**DiscoFT** is provided free under the GNU General Public License (GPL)
 https://www.gnu.org/licenses/gpl-3.0.html
