@@ -46,11 +46,14 @@ Functions
 
 How to use
 --
-Once the interface is up and the program has initilaised, click 'Open Chat' for one CSV, or 'Open Multiple' to load multiple CSV's.
+Once the interface is up and the program has initialised, click 'Open Chat' for one CSV, or 'Open Multiple' to load multiple CSV's.
+
 If you choose multiple, they will be iterated through one after another, rather than all at once. DiscoFT will state the progress as it goes.
 
 After opening your chat files, tick the options you'd like in a report and click 'Create Report'.
+
 DiscoFT will procedurally initiate each option and generate a folder called "Result" if none exists in the working directory.
+
 Inside this folder will be the chatreport in HTML format and any images necessary to display the report options selected.
 
 Open your chat report to see the results!
