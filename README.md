@@ -46,6 +46,8 @@ Functions
 
 How to use
 --
+
+
 Once the interface is up and the program has initialised, click 'Open Chat' for one CSV, or 'Open Multiple' to load multiple CSV's.
 
 If you choose multiple, they will be iterated through one after another, rather than all at once. DiscoFT will state the progress as it goes.
@@ -56,4 +58,4 @@ DiscoFT will procedurally initiate each option and generate a folder called "Res
 
 Inside this folder will be the chatreport in HTML format and any images necessary to display the report options selected.
 
-Open your chat report to see the results!
+**Open your chat report to see the results!**
