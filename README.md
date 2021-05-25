@@ -60,3 +60,7 @@ DiscoFT will procedurally initiate each option and generate a folder called "Res
 Inside this folder will be the chatreport in HTML format and any images necessary to display the report options selected.
 
 **Open your chat report to see the results!**
+
+# Licensing
+DiscoFT is provided free under the GNU General Public License (GPL)
+https://www.gnu.org/licenses/gpl-3.0.html
