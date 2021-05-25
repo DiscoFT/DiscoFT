@@ -9,13 +9,21 @@ Before running the program you will need to run some commands to give access to 
 >pip install pyqt5
 
 >pip install numpy
+
 >pip install nltk
+
 >pip install pandas
+
 >pip install gensim
+
 >pip install pyLDAvis
+
 >pip install matplotlib
+
 >pip install wordcloud
+
 >pip install spacy
+
 >python -m spacy download en
 
 
