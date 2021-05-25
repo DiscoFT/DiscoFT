@@ -7,6 +7,7 @@ Use "python -V" to check your version. This tool was made using Python 3.9.5.
 Before running the program you will need to run some commands to give access to certain modules if you don't already have them.
 
 >pip install pyqt5
+
 >pip install numpy
 >pip install nltk
 >pip install pandas
