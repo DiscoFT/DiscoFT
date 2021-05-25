@@ -7,6 +7,7 @@ This tool was made using **Python 3.9.5**. Use "python -V" to check your version
 Before running the program you will need to run some commands to give access to certain modules if you don't already have them.
 
 >pip install pyqt5
+https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html
 
 >pip install numpy
 
@@ -27,7 +28,7 @@ Before running the program you will need to run some commands to give access to 
 >python -m spacy download en
 
 
-Finally, use >python .\main_thread.py to run inside your project folder
+Finally, use >python .\main_thread.py to run inside your project folder.
 
 # Usability
 
