@@ -1,6 +1,6 @@
 # Setup & Prerequisites
 
-Copy all files included to a project folder of your choice.
+**Copy all files included to a project folder of your choice.**
 
 Using your terminal window, navigate using the cd command to your project folder where the **DiscoFT** has been located.
 
