@@ -38,7 +38,7 @@ class WorkerThread(QThread):
         self.wrapper_topicModels = ''
         self.wrapper_wordMap = ''
         self.wrapper_top20Words = ''
-        
+
     def run(self):
         for iter, file in enumerate(self.files):
             self.words = []
@@ -208,7 +208,7 @@ class WorkerThread(QThread):
         nlp = en_core_web_sm.load()
         # nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
         allowed_postags=['NOUN', 'ADJ', 'VERB', 'ADV']
-        data_lemmatized = [] Lemmatising
+        data_lemmatized = [] # Lemmatising
         for sent in data_words_bigrams:
             doc = nlp(" ".join(sent)) 
             data_lemmatized.append([token.lemma_ for token in doc if token.pos_ in allowed_postags])
