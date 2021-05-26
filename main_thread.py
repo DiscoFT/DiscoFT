@@ -51,7 +51,7 @@ import pyLDAvis # LDA Visualisation
 import pyLDAvis.gensim_models # LDA Visualisation
 
 class WorkerThread(QThread):
-    progress = pyqtSignal(str)
+    progress = pyqtSignal(str) # The message to be displayed in label
 
     def __init__(self, files, resultPath, checkboxLists):
         QThread.__init__(self)
@@ -140,14 +140,14 @@ class WorkerThread(QThread):
     def preProcess(self, file):
         self.data = pd.read_csv(file) 
         self.stop_words = set(stopwords.words("english")) # Adjustable for different languages. Only tested English!
-        for iter in self.data.Content:
+        for iter in self.data.Content: # Contents column of CSV
             words_in_quote = re.findall(r'\w+', str(iter))
             filtered_list = [word for word in words_in_quote if word.casefold() not in self.stop_words and not word.isdigit()] # Stop! Stopword time
             self.words += filtered_list
             self.words_sentence.append(filtered_list)
 
     def slot_profileNames(self): # Report - Usernames
-        profileNames = np.unique(self.data.Author.to_numpy())
+        profileNames = np.unique(self.data.Author.to_numpy()) # Author column in CSV
 
         self.pos += 1
         self.wrapper_profileNames = f"""
@@ -157,7 +157,7 @@ class WorkerThread(QThread):
                 <p class="pl-5">- {profileName}</p>"""
 
     def slot_conversationTimeframe(self): # Report - Conversation Timeframe
-        timeframe = self.data.Date.iloc[0] + " ~ " + self.data.Date.iloc[-1]
+        timeframe = self.data.Date.iloc[0] + " ~ " + self.data.Date.iloc[-1] # Date column in CSV
 
         self.pos += 1
         self.wrapper_timeframe = f"""
