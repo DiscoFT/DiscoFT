@@ -41,6 +41,8 @@ Once a CSV has been selected, it performs a number of selected functions on the 
 
 Files over 1MB in size might take a while to Topic Model. Tested a 4MB file with 50,000 lines - Took about 5 mins.
 
+An example file titled 'test.csv' is included in GitHub.
+
 # Functions
 
 1.  Outputting the Usernames involved in the conversation
