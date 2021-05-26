@@ -83,7 +83,7 @@ class WorkerThread(QThread):
             self.pos = 0
 
             filename = self.outputPath + '/chatreport.html' # Can be renamed to whatever is more appropriate
-            f = open(filename,'w') # Write Permission
+            f = open(filename,'wb') # Write Permission
             # Full comments beyond here break wrapper! Below is basic layout for the report
             wrapper = """<html>
             <head>
@@ -132,8 +132,9 @@ class WorkerThread(QThread):
                 self.slot_topicModels()
 
             whole = wrapper % (self.wrapper_profileNames, self.wrapper_timeframe, self.wrapper_timestampGraph, self.wrapper_top20Words, self.wrapper_wordMap, self.wrapper_topicModels)
-            f.write(whole) # whole report
-            f.close() # end
+            #f.write(whole) # Compile report. Breaks if certain special characters are used
+            f.write(whole.encode("utf-8")) # Compile report with utf-8 encoding fixes this
+            f.close() # Ends
             self.progress.emit(f"{iter + 1} Finished...") # When done
     
     def preProcess(self, file):
@@ -378,7 +379,7 @@ class MyDialog(QDialog, Ui_Dialog): # GUI Dialog
         self.workerThread.progress.connect(self.setProgress)
         self.workerThread.finished.connect(self.threadDeleteLater)
         self.workerThread.start()
-        self.lbl_progress.setText("Starting...") # Begins processing
+        self.lbl_progress.setText("Working...") # Begins processing
 
     @pyqtSlot(str)
     def setProgress(self, value):
