@@ -37,7 +37,7 @@ Finally, use >python .\main_thread.py to run inside your project folder.
 
 
 **DiscoFT** is capable of opening CSV files extracted from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) or similarly formatted chat files.
-Once a CSV has been selected, it performs a number of selected functions on the data, then ouptuts the results to a HTML report.
+Once a CSV has been selected, it performs a number of selected functions on the 'Author', 'Date', and 'Content' CSV columns, then ouptuts the results to a HTML report.
 
 Files over 1MB in size might take a while to Topic Model. Tested a 4MB file with 50,000 lines - Took about 5 mins.
 
