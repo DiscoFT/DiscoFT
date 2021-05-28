@@ -1,6 +1,6 @@
 # DiscoFT
 
-**DiscoFT** is capable of opening CSV files extracted from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) or similarly formatted chat files.
+**DiscoFT** is  a free-to-use visualization aide for conversation files. The tool is capable of opening CSV files extracted from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) or similarly formatted chat files.
 Once a CSV has been selected, it performs a number of selected functions on the 'Author', 'Date', and 'Content' CSV columns, then ouptuts the results to a HTML report.
 
 # Requirements
