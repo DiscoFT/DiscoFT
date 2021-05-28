@@ -23,22 +23,20 @@ Additionally you may need to run the following command if en_core_web_sm doesn't
 ```python -m spacy download en``` 
 
 
-Finally, use ```python .\main_thread.py``` to run inside your project folder.
 
-# Usability
+
+# Usage
+
+ ```$ python .\main_thread.py``` to run inside your project folder.
+
+# Functions
 
 <img src=DiscoFT_GUI.PNG>
-
 
 **DiscoFT** is capable of opening CSV files extracted from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) or similarly formatted chat files.
 Once a CSV has been selected, it performs a number of selected functions on the 'Author', 'Date', and 'Content' CSV columns, then ouptuts the results to a HTML report.
 
-Files over 1MB in size might take a while to Topic Model. Tested a 4MB file with 50,000 lines - Took about 5 mins.
-
-An example file titled 'test.csv' is included in GitHub.
-
-# Functions
-
+**The Functions:**
 1.  Outputting the Usernames involved in the conversation
 2.  Displaying the Start - End point of the conversation in the form of a Timeframe
 3.  Generating an Activity graph based on the timestamps in the conversation to help hightlight peak times
@@ -46,8 +44,9 @@ An example file titled 'test.csv' is included in GitHub.
 5.  Displaying the top used words in the form of a Word Map
 6.  Identifying Topic Models based on learning from the conversation data and then outputting into a table & graph
 
-# How to use
+Files over 1MB in size might take a while to Topic Model. Tested a 4MB file with 50,000 lines - Took about 5 mins.
 
+An example file titled 'test.csv' is included with the program, as well as 'ExampleReportOutput.zip'.
 
 ## Opening A Chat
 Once the interface is up and the program has initialised, click 'Open Chat' for one CSV, or 'Open Multiple' to load multiple CSV's.
