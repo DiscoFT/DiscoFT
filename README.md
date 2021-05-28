@@ -29,7 +29,7 @@ Before running the program you will need to run some commands to give access to 
 ```python -m spacy download en``` for [en_core_web_sm](https://spacy.io/)
 
 
-Finally, use >python .\main_thread.py to run inside your project folder.
+Finally, use ```python .\main_thread.py``` to run inside your project folder.
 
 # Usability
 
