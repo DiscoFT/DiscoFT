@@ -1,4 +1,4 @@
-# Setup & Prerequisites
+# Requirements
 
 **Copy all files included to a project folder of your choice.**
 
