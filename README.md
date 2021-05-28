@@ -1,3 +1,8 @@
+# DiscoFT
+
+**DiscoFT** is capable of opening CSV files extracted from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) or similarly formatted chat files.
+Once a CSV has been selected, it performs a number of selected functions on the 'Author', 'Date', and 'Content' CSV columns, then ouptuts the results to a HTML report.
+
 # Requirements
 
 **Copy all files included to a project folder of your choice.**
@@ -32,9 +37,6 @@ Additionally you may need to run the following command if en_core_web_sm doesn't
 # Functions
 
 <img src=DiscoFT_GUI.PNG>
-
-**DiscoFT** is capable of opening CSV files extracted from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter) or similarly formatted chat files.
-Once a CSV has been selected, it performs a number of selected functions on the 'Author', 'Date', and 'Content' CSV columns, then ouptuts the results to a HTML report.
 
 **The Functions:**
 1.  Outputting the Usernames involved in the conversation
