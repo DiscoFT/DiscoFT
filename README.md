@@ -8,23 +8,7 @@ This tool was made using **Python 3.9.5**. Use "python -V" to check your version
 
 Before running the program you will need to run some commands to give access to certain modules if you don't already have them.
 
-```pip install pyqt5``` for [PyQT5](https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html)
-
-```pip install numpy``` for [Numpy](https://numpy.org/doc/stable/)
-
-```pip install nltk``` for [NLTK](https://www.nltk.org/)
-
-```pip install pandas``` for [Pandas](https://pandas.pydata.org/)
-
-```pip install gensim``` for [Gensim](https://radimrehurek.com/gensim/index.html)
-
-```pip install pyLDAvis``` for [PyLDAvis](https://github.com/bmabey/pyLDAvis)
-
-```pip install matplotlib``` for [MatPlotLib](https://matplotlib.org/)
-
-```pip install wordcloud``` for [Wordcloud](https://github.com/amueller/word_cloud)
-
-```pip install spacy``` for [Spacy](https://spacy.io/)
+[PyQT5](https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html) [Numpy](https://numpy.org/doc/stable/) [NLTK](https://www.nltk.org/) [Pandas](https://pandas.pydata.org/) [Gensim](https://radimrehurek.com/gensim/index.html) [PyLDAvis](https://github.com/bmabey/pyLDAvis) [MatPlotLib](https://matplotlib.org/) [Wordcloud](https://github.com/amueller/word_cloud) [Spacy](https://spacy.io/)
 
 ```python -m spacy download en``` for [en_core_web_sm](https://spacy.io/)
 
