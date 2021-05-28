@@ -8,7 +8,7 @@ This tool was made using **Python 3.9.5**. Use "python -V" to check your version
 
 Before running the program you will need to run some commands to give access to certain modules if you don't already have them.
 
-These are:[PyQT5](https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html), [Numpy](https://numpy.org/doc/stable/), [NLTK](https://www.nltk.org/), [Pandas](https://pandas.pydata.org/), [Gensim](https://radimrehurek.com/gensim/index.html), [PyLDAvis](https://github.com/bmabey/pyLDAvis), [MatPlotLib](https://matplotlib.org/), [Wordcloud](https://github.com/amueller/word_cloud), and [Spacy](https://spacy.io/).
+These are: [PyQT5](https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html), [Numpy](https://numpy.org/doc/stable/), [NLTK](https://www.nltk.org/), [Pandas](https://pandas.pydata.org/), [Gensim](https://radimrehurek.com/gensim/index.html), [PyLDAvis](https://github.com/bmabey/pyLDAvis), [MatPlotLib](https://matplotlib.org/), [Wordcloud](https://github.com/amueller/word_cloud), and [Spacy](https://spacy.io/).
 
 To download them use:
 
