@@ -13,12 +13,14 @@ These are:[PyQT5](https://www.riverbankcomputing.com/static/Docs/PyQt5/introduct
 To download them use:
 
 ```py -m pip install -r requirements.txt```
+
 or
+
 ```pip3 install -r requirements.txt```
 
 Additionally you may need to run the following command if en_core_web_sm doesn't correctly install:
 
-```python -m spacy download en``` for [en_core_web_sm](https://spacy.io/)
+```python -m spacy download en``` 
 
 
 Finally, use ```python .\main_thread.py``` to run inside your project folder.
