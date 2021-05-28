@@ -1,0 +1,9 @@
+pyqt5
+numpy
+nltk
+pandas
+gensim
+pyLDAvis
+matplotlib
+wordcloud
+spacy
