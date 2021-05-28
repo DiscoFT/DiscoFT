@@ -10,23 +10,23 @@ Before running the program you will need to run some commands to give access to 
 
 ```pip install pyqt5``` for [PyQT5](https://www.riverbankcomputing.com/static/Docs/PyQt5/introduction.html)
 
->pip install [numpy](https://numpy.org/doc/stable/)
+```pip install numpy``` for [Numpy](https://numpy.org/doc/stable/)
 
->pip install [nltk](https://www.nltk.org/)
+```pip install nltk``` for [NLTK](https://www.nltk.org/)
 
->pip install [pandas](https://pandas.pydata.org/)
+```pip install pandas``` for [Pandas](https://pandas.pydata.org/)
 
->pip install [gensim](https://radimrehurek.com/gensim/index.html)
+```pip install gensim``` for [Gensim](https://radimrehurek.com/gensim/index.html)
 
->pip install [pyLDAvis](https://github.com/bmabey/pyLDAvis)
+```pip install pyLDAvis``` for [PyLDAvis](https://github.com/bmabey/pyLDAvis)
 
->pip install [matplotlib](https://matplotlib.org/)
+```pip install matplotlib``` for [MatPlotLib](https://matplotlib.org/)
 
->pip install [wordcloud](https://github.com/amueller/word_cloud)
+```pip install wordcloud``` for [Wordcloud](https://github.com/amueller/word_cloud)
 
->pip install [spacy](https://spacy.io/)
+```pip install spacy``` for [Spacy](https://spacy.io/)
 
->python -m [spacy](https://spacy.io/) download en
+```python -m spacy download en``` for [en_core_web_sm](https://spacy.io/)
 
 
 Finally, use >python .\main_thread.py to run inside your project folder.
