@@ -1,7 +1,7 @@
 """
 BSD 3-Clause License
 
-Copyright (c) 2021, DiscoFT
+Copyright (c) 2021, DiscoFV
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -304,7 +304,7 @@ class MyDialog(QDialog, Ui_Dialog): # GUI Dialog
         super().__init__()
         self.setupUi(self)
 
-        self.setWindowTitle("DiscoFT") # That's me!
+        self.setWindowTitle("DiscoFV") # That's me!
 
         self.setFixedSize(610, 270) # Changeable if too small
 
