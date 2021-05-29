@@ -38,7 +38,7 @@ Additionally you may need to run the following command if en_core_web_sm doesn't
 
 # Functions
 
-<img src=DiscoFV_GUI.PNG>
+<img src=CurrentGUI.PNG>
 
 **The Functions:**
 1.  Outputting the Usernames involved in the conversation
