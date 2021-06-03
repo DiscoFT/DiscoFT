@@ -165,7 +165,7 @@ class WorkerThread(QThread):
             <p class="pl-5">{timeframe}</p>"""
 
     def slot_timestampGraph(self): # Report - Activity Graph
-        fig, ax = plt.subplots(figsize=(10, 10), facecolor=(.38, .51, .51))
+        fig, ax = plt.subplots(figsize=(10, 10), facecolor=(.38, .51, .51)) # Decent colours for now
         plt.locator_params(axis="x", nbins=15)
         timeline = pd.DataFrame(pd.to_datetime(self.data.Date), columns=['Date'])
         timeline['timestamp'] = [datetime.timestamp(x) for x in timeline.Date]
@@ -174,7 +174,7 @@ class WorkerThread(QThread):
         xlabels = [datetime.fromtimestamp(int(x)) for x in x_ticks]
         ax.set_xticklabels(xlabels)
         fig.autofmt_xdate()
-        ax.set_facecolor('#eafff5') # Looks scientific but maybe change
+        ax.set_facecolor('#eafff5') # Decent colours for now
         plt.tight_layout(pad=3)
         plt.savefig(self.outputPath + '/img/activityGraph.png')
         
